@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_scheme">
+        <item>Standard</item>
+        <item>Blau</item>
+        <item>Rot</item>
+        <item>Grün</item>
+        <item>Schwarz</item>
+        <item>Gelb</item>
+    </string-array>
+    <string-array name="color_scheme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Englisch</item>
+        <item>Deutsch</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>en</item>
+        <item>de</item>
+    </string-array>
+</resources>

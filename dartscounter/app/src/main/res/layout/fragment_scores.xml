@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/highest_score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/highest_score"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/highest_score"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/highest_finish" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/highest_score"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/highest_finish"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/highest_finish"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/perfect_game" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/highest_finish"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/perfect_game" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/perfect_game"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/score_70" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/perfect_game"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/score_70" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/score_70"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/score_90" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/score_70"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/score_90" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/score_90"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/score_130" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/score_90"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/score_130" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/score_130"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/ton_outs" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/score_130"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/ton_outs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
